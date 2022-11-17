@@ -1,0 +1,15 @@
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\bin\Debug\SistemaAeqs.exe
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\bin\Debug\SistemaAeqs.pdb
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\bin\Debug\SistemaAeqs.xml
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormInicio.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormRegistro.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormSolicitud.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormSolicitudLogin.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\SistemaAeqs.vbproj.GenerateResource.Cache
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\SistemaAeqs.exe
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\SistemaAeqs.xml
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\SistemaAeqs.pdb
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormRegistros.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.Modal_REmpleados.resources
+E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormFirst.resources
