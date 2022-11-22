@@ -8,13 +8,16 @@
     Private Sub createOption(ByVal key As String, ByVal name As String)
         Dim label = New Label()
         label.Text = name
-        label.Location = New Point(20, indexA)
+        label.Location = New Point(10, indexA)
         Dim textBox = New TextBox
         textBox.Tag = key
-        textBox.Location = New Point(20, indexB)
+        textBox.Location = New Point(10, indexB)
         textBox.Size = New Size(100, 20)
+
         Me.Controls.Add(textBox)
         Me.Controls.Add(label)
+        submit.Location = New Point(10, indexB + 30)
+        Me.Size = New Size(220, indexB + 100)
         indexA += 45
         indexB += 45
     End Sub
@@ -32,7 +35,12 @@
     End Sub
 
     Private Sub submit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles submit.Click
+
         Data = New Dictionary(Of String, String)()
         Me.Hide()
+    End Sub
+
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
     End Sub
 End Class

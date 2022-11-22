@@ -25,12 +25,13 @@ Partial Class FormRegistros
         Me.empleados = New System.Windows.Forms.Button()
         Me.clientes = New System.Windows.Forms.Button()
         Me.pedido = New System.Windows.Forms.Button()
+        Me.Login = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'empleados
         '
         Me.empleados.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.empleados.Location = New System.Drawing.Point(104, 70)
+        Me.empleados.Location = New System.Drawing.Point(102, 70)
         Me.empleados.Name = "empleados"
         Me.empleados.Size = New System.Drawing.Size(89, 32)
         Me.empleados.TabIndex = 0
@@ -40,7 +41,7 @@ Partial Class FormRegistros
         'clientes
         '
         Me.clientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientes.Location = New System.Drawing.Point(104, 113)
+        Me.clientes.Location = New System.Drawing.Point(103, 113)
         Me.clientes.Name = "clientes"
         Me.clientes.Size = New System.Drawing.Size(89, 32)
         Me.clientes.TabIndex = 1
@@ -50,27 +51,41 @@ Partial Class FormRegistros
         'pedido
         '
         Me.pedido.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pedido.Location = New System.Drawing.Point(104, 156)
+        Me.pedido.Location = New System.Drawing.Point(103, 156)
         Me.pedido.Name = "pedido"
         Me.pedido.Size = New System.Drawing.Size(89, 32)
         Me.pedido.TabIndex = 2
         Me.pedido.Text = "Pedidos"
         Me.pedido.UseVisualStyleBackColor = True
         '
+        'Login
+        '
+        Me.Login.AutoSize = True
+        Me.Login.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Login.Location = New System.Drawing.Point(99, 25)
+        Me.Login.Name = "Login"
+        Me.Login.Size = New System.Drawing.Size(62, 24)
+        Me.Login.TabIndex = 8
+        Me.Login.Text = "Login"
+        Me.Login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'FormRegistros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(294, 268)
+        Me.Controls.Add(Me.Login)
         Me.Controls.Add(Me.pedido)
         Me.Controls.Add(Me.clientes)
         Me.Controls.Add(Me.empleados)
         Me.Name = "FormRegistros"
         Me.Text = "AEQS"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents empleados As System.Windows.Forms.Button
     Friend WithEvents clientes As System.Windows.Forms.Button
     Friend WithEvents pedido As System.Windows.Forms.Button
+    Friend WithEvents Login As System.Windows.Forms.Label
 End Class

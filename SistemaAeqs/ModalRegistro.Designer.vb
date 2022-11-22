@@ -28,7 +28,7 @@ Partial Class ModalRegistro
         '
         'submit
         '
-        Me.submit.Location = New System.Drawing.Point(105, 255)
+        Me.submit.Location = New System.Drawing.Point(63, 255)
         Me.submit.Name = "submit"
         Me.submit.Size = New System.Drawing.Size(75, 23)
         Me.submit.TabIndex = 13
@@ -39,7 +39,7 @@ Partial Class ModalRegistro
         '
         Me.titleLabel.AutoSize = True
         Me.titleLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.titleLabel.Location = New System.Drawing.Point(114, 9)
+        Me.titleLabel.Location = New System.Drawing.Point(72, 9)
         Me.titleLabel.Name = "titleLabel"
         Me.titleLabel.Size = New System.Drawing.Size(57, 18)
         Me.titleLabel.TabIndex = 14
@@ -49,7 +49,7 @@ Partial Class ModalRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 290)
+        Me.ClientSize = New System.Drawing.Size(200, 290)
         Me.Controls.Add(Me.titleLabel)
         Me.Controls.Add(Me.submit)
         Me.Name = "ModalRegistro"

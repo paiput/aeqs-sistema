@@ -25,6 +25,7 @@ Partial Class FormInicio
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ButtonRegistros = New System.Windows.Forms.Button()
         Me.ButtonCerrarSesion = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -39,7 +40,7 @@ Partial Class FormInicio
         '
         'ButtonRegistros
         '
-        Me.ButtonRegistros.Location = New System.Drawing.Point(95, 128)
+        Me.ButtonRegistros.Location = New System.Drawing.Point(95, 70)
         Me.ButtonRegistros.Name = "ButtonRegistros"
         Me.ButtonRegistros.Size = New System.Drawing.Size(83, 36)
         Me.ButtonRegistros.TabIndex = 3
@@ -48,18 +49,28 @@ Partial Class FormInicio
         '
         'ButtonCerrarSesion
         '
-        Me.ButtonCerrarSesion.Location = New System.Drawing.Point(95, 170)
+        Me.ButtonCerrarSesion.Location = New System.Drawing.Point(95, 154)
         Me.ButtonCerrarSesion.Name = "ButtonCerrarSesion"
         Me.ButtonCerrarSesion.Size = New System.Drawing.Size(83, 36)
         Me.ButtonCerrarSesion.TabIndex = 4
         Me.ButtonCerrarSesion.Text = "Cerrar Sesión"
         Me.ButtonCerrarSesion.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(95, 112)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(83, 36)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Tablas"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'FormInicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(284, 235)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ButtonCerrarSesion)
         Me.Controls.Add(Me.ButtonRegistros)
         Me.Controls.Add(Me.Label1)
@@ -72,4 +83,5 @@ Partial Class FormInicio
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ButtonRegistros As System.Windows.Forms.Button
     Friend WithEvents ButtonCerrarSesion As Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
