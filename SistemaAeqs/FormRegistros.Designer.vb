@@ -29,27 +29,30 @@ Partial Class FormRegistros
         '
         'empleados
         '
-        Me.empleados.Location = New System.Drawing.Point(105, 30)
+        Me.empleados.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.empleados.Location = New System.Drawing.Point(104, 70)
         Me.empleados.Name = "empleados"
-        Me.empleados.Size = New System.Drawing.Size(75, 23)
+        Me.empleados.Size = New System.Drawing.Size(89, 32)
         Me.empleados.TabIndex = 0
         Me.empleados.Text = "Empleados"
         Me.empleados.UseVisualStyleBackColor = True
         '
         'clientes
         '
-        Me.clientes.Location = New System.Drawing.Point(105, 95)
+        Me.clientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.clientes.Location = New System.Drawing.Point(104, 113)
         Me.clientes.Name = "clientes"
-        Me.clientes.Size = New System.Drawing.Size(75, 23)
+        Me.clientes.Size = New System.Drawing.Size(89, 32)
         Me.clientes.TabIndex = 1
         Me.clientes.Text = "Clientes"
         Me.clientes.UseVisualStyleBackColor = True
         '
         'pedido
         '
-        Me.pedido.Location = New System.Drawing.Point(105, 159)
+        Me.pedido.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pedido.Location = New System.Drawing.Point(104, 156)
         Me.pedido.Name = "pedido"
-        Me.pedido.Size = New System.Drawing.Size(75, 23)
+        Me.pedido.Size = New System.Drawing.Size(89, 32)
         Me.pedido.TabIndex = 2
         Me.pedido.Text = "Pedidos"
         Me.pedido.UseVisualStyleBackColor = True

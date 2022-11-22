@@ -91,34 +91,10 @@
       <DependentUpon>FormInicio.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.vb">
-      <DependentUpon>FormLogin.vb</DependentUpon>
+    <Compile Include="ModalRegistro.Designer.vb">
+      <DependentUpon>ModalRegistro.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormRegistro.Designer.vb">
-      <DependentUpon>FormRegistro.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormRegistro.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormSolicitud.Designer.vb">
-      <DependentUpon>FormSolicitud.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormSolicitud.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormSolicitudLogin.Designer.vb">
-      <DependentUpon>FormSolicitudLogin.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormSolicitudLogin.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Modal_REmpleados.Designer.vb">
-      <DependentUpon>Modal_REmpleados.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Modal_REmpleados.vb">
+    <Compile Include="ModalRegistro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -147,17 +123,8 @@
     <EmbeddedResource Include="FormInicio.resx">
       <DependentUpon>FormInicio.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistro.resx">
-      <DependentUpon>FormRegistro.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormSolicitud.resx">
-      <DependentUpon>FormSolicitud.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormSolicitudLogin.resx">
-      <DependentUpon>FormSolicitudLogin.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Modal_REmpleados.resx">
-      <DependentUpon>Modal_REmpleados.vb</DependentUpon>
+    <EmbeddedResource Include="ModalRegistro.resx">
+      <DependentUpon>ModalRegistro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

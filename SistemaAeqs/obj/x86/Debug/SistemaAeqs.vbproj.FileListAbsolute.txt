@@ -13,3 +13,17 @@ E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\SistemaAeqs.pdb
 E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormRegistros.resources
 E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.Modal_REmpleados.resources
 E:\vb-net\sistema-aeqs\SistemaAeqs\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormFirst.resources
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\bin\Debug\SistemaAeqs.exe
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\bin\Debug\SistemaAeqs.pdb
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\bin\Debug\SistemaAeqs.xml
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.vbproj.AssemblyReference.cache
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormFirst.resources
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormRegistros.resources
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\WindowsApplication1.FormInicio.resources
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.vbproj.GenerateResource.cache
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.vbproj.CoreCompileInputs.cache
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.exe
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.xml
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\SistemaAeqs.pdb
+C:\Users\ALUMNOS\Desktop\aeqs-sistema-main\SistemaAeqs\obj\x86\Debug\WindowsApplication1.ModalRegistro.resources

@@ -1,16 +1,16 @@
 ﻿Public Class FormInicio
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonCrearSolicitud.Click
-        Me.Hide()
-        FormSolicitudLogin.Show()
-    End Sub
-
     Private Sub FormInicio_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
     End Sub
 
-    Private Sub registro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles registro.Click
+    Private Sub registro_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonRegistros.Click
         Me.Hide()
         FormRegistros.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ButtonCerrarSesion.Click
+        Me.Hide()
+        FormFirst.Show()
     End Sub
 End Class

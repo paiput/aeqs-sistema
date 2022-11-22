@@ -12,9 +12,9 @@
         data.Add("Mail", "Mail")
         data.Add("Telefono", "Telefono")
         data.Add("Direccion", "Direccion")
-        Modal_REmpleados.Title = "Empleados"
-        Modal_REmpleados.Data = Data
-        Modal_REmpleados.Show()
+        ModalRegistro.Title = "Empleados"
+        ModalRegistro.Data = data
+        ModalRegistro.Show()
     End Sub
 
     Private Sub clientes_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles clientes.Click
@@ -26,9 +26,9 @@
         data.Add("Mail", "Mail")
         data.Add("Telefono", "Telefono")
         data.Add("Direccion", "Direccion")
-        Modal_REmpleados.Title = "Clientes"
-        Modal_REmpleados.Data = data
-        Modal_REmpleados.Show()
+        ModalRegistro.Title = "Clientes"
+        ModalRegistro.Data = data
+        ModalRegistro.Show()
     End Sub
 
     Private Sub pedido_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles pedido.Click
@@ -39,9 +39,9 @@
         data.Add("PresupuestoMax", "PresupuestoMax")
         data.Add("Aprobado", "Aprobado")
         data.Add("Fecha", "Fecha")
-        Modal_REmpleados.Title = "Pedidos"
-        Modal_REmpleados.Data = data
-        Modal_REmpleados.Show()
+        ModalRegistro.Title = "Pedidos"
+        ModalRegistro.Data = data
+        ModalRegistro.Show()
 
     End Sub
 End Class

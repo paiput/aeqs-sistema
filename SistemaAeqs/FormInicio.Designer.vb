@@ -23,9 +23,8 @@ Partial Class FormInicio
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ButtonCrearSolicitud = New System.Windows.Forms.Button()
-        Me.ButtonEvaluarPresupuesto = New System.Windows.Forms.Button()
-        Me.registro = New System.Windows.Forms.Button()
+        Me.ButtonRegistros = New System.Windows.Forms.Button()
+        Me.ButtonCerrarSesion = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -38,41 +37,31 @@ Partial Class FormInicio
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Bienvenido a AEQS"
         '
-        'ButtonCrearSolicitud
+        'ButtonRegistros
         '
-        Me.ButtonCrearSolicitud.Location = New System.Drawing.Point(75, 110)
-        Me.ButtonCrearSolicitud.Name = "ButtonCrearSolicitud"
-        Me.ButtonCrearSolicitud.Size = New System.Drawing.Size(128, 47)
-        Me.ButtonCrearSolicitud.TabIndex = 1
-        Me.ButtonCrearSolicitud.Text = "Crear solicitud de presupuesto"
-        Me.ButtonCrearSolicitud.UseVisualStyleBackColor = True
+        Me.ButtonRegistros.Location = New System.Drawing.Point(95, 128)
+        Me.ButtonRegistros.Name = "ButtonRegistros"
+        Me.ButtonRegistros.Size = New System.Drawing.Size(83, 36)
+        Me.ButtonRegistros.TabIndex = 3
+        Me.ButtonRegistros.Text = "Registros"
+        Me.ButtonRegistros.UseVisualStyleBackColor = True
         '
-        'ButtonEvaluarPresupuesto
+        'ButtonCerrarSesion
         '
-        Me.ButtonEvaluarPresupuesto.Location = New System.Drawing.Point(75, 163)
-        Me.ButtonEvaluarPresupuesto.Name = "ButtonEvaluarPresupuesto"
-        Me.ButtonEvaluarPresupuesto.Size = New System.Drawing.Size(128, 47)
-        Me.ButtonEvaluarPresupuesto.TabIndex = 2
-        Me.ButtonEvaluarPresupuesto.Text = "Evaluar presupuesto"
-        Me.ButtonEvaluarPresupuesto.UseVisualStyleBackColor = True
-        '
-        'registro
-        '
-        Me.registro.Location = New System.Drawing.Point(215, 227)
-        Me.registro.Name = "registro"
-        Me.registro.Size = New System.Drawing.Size(57, 22)
-        Me.registro.TabIndex = 3
-        Me.registro.Text = "Registros"
-        Me.registro.UseVisualStyleBackColor = True
+        Me.ButtonCerrarSesion.Location = New System.Drawing.Point(95, 170)
+        Me.ButtonCerrarSesion.Name = "ButtonCerrarSesion"
+        Me.ButtonCerrarSesion.Size = New System.Drawing.Size(83, 36)
+        Me.ButtonCerrarSesion.TabIndex = 4
+        Me.ButtonCerrarSesion.Text = "Cerrar Sesión"
+        Me.ButtonCerrarSesion.UseVisualStyleBackColor = True
         '
         'FormInicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.Controls.Add(Me.registro)
-        Me.Controls.Add(Me.ButtonEvaluarPresupuesto)
-        Me.Controls.Add(Me.ButtonCrearSolicitud)
+        Me.Controls.Add(Me.ButtonCerrarSesion)
+        Me.Controls.Add(Me.ButtonRegistros)
         Me.Controls.Add(Me.Label1)
         Me.Name = "FormInicio"
         Me.Text = "AEQS"
@@ -81,8 +70,6 @@ Partial Class FormInicio
 
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents ButtonCrearSolicitud As System.Windows.Forms.Button
-    Friend WithEvents ButtonEvaluarPresupuesto As System.Windows.Forms.Button
-    Friend WithEvents registro As System.Windows.Forms.Button
-
+    Friend WithEvents ButtonRegistros As System.Windows.Forms.Button
+    Friend WithEvents ButtonCerrarSesion As Button
 End Class

@@ -22,21 +22,21 @@ Partial Class FormFirst
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.user = New System.Windows.Forms.TextBox()
+        Me.TextBoxUser = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.pass = New System.Windows.Forms.TextBox()
+        Me.TextBoxPassword = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.message = New System.Windows.Forms.Label()
         Me.Login = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'user
+        'TextBoxUser
         '
-        Me.user.Location = New System.Drawing.Point(115, 78)
-        Me.user.Name = "user"
-        Me.user.Size = New System.Drawing.Size(100, 20)
-        Me.user.TabIndex = 0
+        Me.TextBoxUser.Location = New System.Drawing.Point(115, 78)
+        Me.TextBoxUser.Name = "TextBoxUser"
+        Me.TextBoxUser.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxUser.TabIndex = 0
         '
         'Label1
         '
@@ -56,12 +56,12 @@ Partial Class FormFirst
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Contraseña"
         '
-        'pass
+        'TextBoxPassword
         '
-        Me.pass.Location = New System.Drawing.Point(115, 104)
-        Me.pass.Name = "pass"
-        Me.pass.Size = New System.Drawing.Size(100, 20)
-        Me.pass.TabIndex = 3
+        Me.TextBoxPassword.Location = New System.Drawing.Point(115, 104)
+        Me.TextBoxPassword.Name = "TextBoxPassword"
+        Me.TextBoxPassword.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxPassword.TabIndex = 3
         '
         'Button1
         '
@@ -100,19 +100,19 @@ Partial Class FormFirst
         Me.Controls.Add(Me.message)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.pass)
+        Me.Controls.Add(Me.TextBoxPassword)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.user)
+        Me.Controls.Add(Me.TextBoxUser)
         Me.Name = "FormFirst"
         Me.Text = "Ingresar AEQS"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents user As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxUser As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents pass As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxPassword As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents message As System.Windows.Forms.Label
     Friend WithEvents Login As System.Windows.Forms.Label
