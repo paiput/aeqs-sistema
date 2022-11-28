@@ -76,7 +76,6 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="conexion.vb" />
     <Compile Include="FormTablas.Designer.vb">
       <DependentUpon>FormTablas.vb</DependentUpon>
     </Compile>
